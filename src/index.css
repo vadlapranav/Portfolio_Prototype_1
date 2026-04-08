@@ -1,0 +1,137 @@
+@import "tailwindcss";
+
+/* ===== Custom Theme ===== */
+@theme {
+  --color-neon-blue: #00d4ff;
+  --color-neon-blue-dim: #00d4ff33;
+  --color-neon-green: #39ff14;
+  --color-neon-green-dim: #39ff1433;
+  --color-bg-dark: #0a0a0a;
+  --color-bg-card: #141414;
+  --color-bg-card-hover: #1a1a1a;
+  --color-border-pixel: #2a2a2a;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a0a0a0;
+  --color-text-muted: #666666;
+  --color-gold: #ffd700;
+  --color-gold-dim: #ffd70033;
+
+  --font-pixel: 'Press Start 2P', monospace;
+  --font-retro: 'VT323', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+/* ===== Base Styles ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg-dark);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  cursor: url('/assets/cursor/mog1.jpg') 16 16, auto;
+  overflow-x: hidden;
+}
+
+a, button, [role="button"], .interactive {
+  cursor: url('/assets/cursor/mog2.jpg') 16 16, pointer;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-bg-dark);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-neon-blue);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-neon-green);
+}
+
+/* ===== Pixel Border Utility ===== */
+.pixel-border {
+  border: 2px solid var(--color-border-pixel);
+  box-shadow: 
+    inset 0 0 0 1px var(--color-border-pixel),
+    0 0 0 1px var(--color-border-pixel);
+}
+
+/* ===== Glow Effects ===== */
+.glow-blue {
+  box-shadow: 0 0 20px var(--color-neon-blue-dim), 0 0 40px var(--color-neon-blue-dim);
+}
+.glow-green {
+  box-shadow: 0 0 20px var(--color-neon-green-dim), 0 0 40px var(--color-neon-green-dim);
+}
+.glow-gold {
+  box-shadow: 0 0 20px var(--color-gold-dim), 0 0 40px var(--color-gold-dim);
+}
+
+/* ===== Text Glow ===== */
+.text-glow-blue {
+  text-shadow: 0 0 10px var(--color-neon-blue), 0 0 20px var(--color-neon-blue-dim);
+}
+.text-glow-green {
+  text-shadow: 0 0 10px var(--color-neon-green), 0 0 20px var(--color-neon-green-dim);
+}
+
+/* ===== Blinking Animation ===== */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+.blink {
+  animation: blink 1.2s ease-in-out infinite;
+}
+
+/* ===== Stars Background ===== */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
+/* ===== Scanline Effect ===== */
+.scanlines::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(0, 0, 0, 0.03) 2px,
+    rgba(0, 0, 0, 0.03) 4px
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ===== Selection ===== */
+::selection {
+  background: var(--color-neon-blue);
+  color: var(--color-bg-dark);
+}
+
+/* ===== Section utility ===== */
+.section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6rem 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .section-container {
+    padding: 4rem 1rem;
+  }
+}
