@@ -1,5 +1,6 @@
-import { motion, useAnimation } from 'framer-motion';
-import { useEffect, useMemo } from 'react';
+import { motion } from 'framer-motion';
+import { useMemo } from 'react';
+import PropTypes from 'prop-types';
 
 function Star({ style }) {
   const duration = 2 + Math.random() * 4;
@@ -12,6 +13,7 @@ function Star({ style }) {
     />
   );
 }
+Star.propTypes = { style: PropTypes.object.isRequired };
 
 export default function HeroSection({ onStart }) {
   const stars = useMemo(() => {
@@ -127,3 +129,4 @@ export default function HeroSection({ onStart }) {
     </motion.div>
   );
 }
+HeroSection.propTypes = { onStart: PropTypes.func.isRequired };

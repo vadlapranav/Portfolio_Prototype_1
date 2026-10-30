@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import PropTypes from 'prop-types';
 
 const colorMap = {
   blue: {
@@ -101,3 +102,4 @@ export default function ProjectCard({ project, index, onClick }) {
     </motion.div>
   );
 }
+ProjectCard.propTypes = { project: PropTypes.object.isRequired, index: PropTypes.number.isRequired, onClick: PropTypes.func.isRequired };
