@@ -1,4 +1,5 @@
 import { AnimatePresence, motion } from 'framer-motion';
+import PropTypes from 'prop-types';
 import { FiX } from 'react-icons/fi';
 
 const colorAccent = {
@@ -164,3 +165,4 @@ export default function ProjectModal({ project, onClose }) {
     </AnimatePresence>
   );
 }
+ProjectModal.propTypes = { project: PropTypes.object, onClose: PropTypes.func.isRequired };

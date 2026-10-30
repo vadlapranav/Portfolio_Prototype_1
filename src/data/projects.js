@@ -1,5 +1,18 @@
 export const projects = [
   {
+    id: 'logistics',
+    title: 'Cost, TAT & Backhaul Optimization',
+    subtitle: 'Logistics Planning · 2026',
+    description: 'Constraint-aware planning that combines order grouping, vehicle assignment, routing, cost and turnaround-time optimization in one workflow.',
+    techStack: ['Python', 'Google OR-Tools', 'FastAPI', 'MongoDB', 'Angular', 'Express', 'OSRM'],
+    problem: 'Planning feasible trips requires balancing vehicle availability, utilization, routing, pricing, and turnaround time while explaining why some orders cannot be planned.',
+    solution: 'Developed cost- and TAT-optimization workflows and consolidated planner execution into four phases. Integrated optimization services with Angular, Express, FastAPI, and MongoDB for cached results and controlled reruns. Integrated a separately developed backhaul engine, including recommendation filtering, vehicle mapping, availability checks, and reservation safeguards.',
+    impact: ['Synthetic test: 36 orders consolidated into one feasible trip', 'Synthetic test: estimated cost reduced by 75.02%', 'Synthetic test: TAT optimizer produced a feasible plan with 18.39-hour maximum TAT'],
+    note: 'Illustrative results from the synthetic test documented in my résumé; not production savings. The backhaul engine was developed separately. No customer data, commercial rates, or private source code are shown.',
+    color: 'green',
+    special: true,
+  },
+  {
     id: 'phishing',
     title: 'Phishing Simulation System',
     subtitle: 'LLM-Based Security Training',
@@ -25,6 +38,7 @@ export const projects = [
     problem: 'Traditional signature-based detection fails against polymorphic and zero-day threats. Static rules can\'t keep up with evolving attack vectors.',
     solution: 'Designed a three-layer detection pipeline: rule-based pre-filtering, ML-based classification (trained on 100K+ samples), and Playwright-powered sandbox for dynamic behavioral analysis.',
     impact: [
+      'Over 90% detection accuracy reported in the updated résumé',
       '40% faster detection speed',
       'Reduced false positives significantly',
       'Production-grade pipeline',

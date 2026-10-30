@@ -1,10 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App.jsx";
+import SoundProvider from "./components/audio/SoundProvider.jsx";
+import "./index.css";
+import "./styles/memeverse.css";
+import "./styles/memes.css";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <App />
+    <SoundProvider>
+      <App />
+    </SoundProvider>
   </React.StrictMode>,
-)
+);

@@ -31,7 +31,7 @@ export default function SkillsSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            Skill tree unlocked. Here's what I've leveled up so far.
+            Skill tree unlocked. Here’s what I’ve leveled up so far.
           </motion.p>
         </div>
 
@@ -96,7 +96,7 @@ export default function SkillsSection() {
               className="w-10 h-10 rounded object-cover"
             />
             <p className="text-text-muted text-xs" style={{ fontFamily: 'var(--font-pixel)', fontSize: '0.45rem' }}>
-              "just vibing with my stack"
+              “just vibing with my stack”
             </p>
           </div>
         </motion.div>

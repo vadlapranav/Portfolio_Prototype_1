@@ -65,7 +65,7 @@ export default function IdleDetector() {
               STILL THERE?
             </p>
             <p className="text-text-muted text-xs" style={{ fontFamily: 'var(--font-retro)', fontSize: '0.9rem' }}>
-              Don't leave me hanging... Scroll around!
+              Don’t leave me hanging... Scroll around!
             </p>
           </div>
 

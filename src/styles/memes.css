@@ -1,0 +1,371 @@
+.interaction-prompt { bottom: 260px; }
+@media (max-width: 760px) { .interaction-prompt { bottom: 245px; } }
+.sound-controls {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  position: relative;
+}
+.sound-toggle.sound-on {
+  color: #b4f4da;
+  background: #b4f4da0c;
+}
+.sound-settings {
+  position: relative;
+}
+.sound-settings summary {
+  display: grid;
+  place-items: center;
+  width: 30px;
+  height: 40px;
+  cursor: pointer;
+  list-style: none;
+  color: #9cafc6;
+}
+.sound-settings summary::-webkit-details-marker {
+  display: none;
+}
+.sound-settings summary svg {
+  width: 14px;
+  height: 14px;
+}
+.sound-settings summary:focus-visible {
+  outline: 2px solid var(--mint);
+  outline-offset: 3px;
+  border-radius: 5px;
+}
+.sound-popover {
+  position: absolute;
+  top: 49px;
+  right: -40px;
+  width: 260px;
+  padding: 19px;
+  border: 1px solid #a5bfd53d;
+  border-radius: 9px;
+  background: #101a2bf7;
+  box-shadow: 0 12px 50px #0007;
+  backdrop-filter: blur(15px);
+  z-index: 55;
+}
+.sound-popover > .eyebrow {
+  font-size: 8px;
+  margin-bottom: 18px;
+  color: #a9dbca;
+}
+.sound-popover label {
+  display: block;
+  font-size: 11px;
+  color: #bdccdf;
+}
+.sound-popover output {
+  float: right;
+  font: 10px var(--mono);
+  color: #99cbbc;
+}
+.sound-popover input[type="range"] {
+  width: 100%;
+  height: 30px;
+  margin: 8px 0 13px;
+  accent-color: #b4f4da;
+}
+.sound-popover label.sound-category {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  min-height: 35px;
+}
+.sound-popover input[type="checkbox"] {
+  accent-color: #b4f4da;
+  width: 15px;
+  height: 15px;
+}
+.sound-popover .text-link {
+  font-size: 10px;
+  color: #adc9c5;
+}
+.sound-popover > small {
+  display: block;
+  font-size: 9px;
+  color: #7f95af;
+  margin-top: 4px;
+}
+.context-meme {
+  margin: 0;
+  max-width: 100%;
+}
+.meme-image-frame {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  overflow: hidden;
+  background: #0c1424;
+  border-radius: 6px;
+  border: 1px solid #a6b7d222;
+}
+.context-meme img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+.context-meme figcaption {
+  font: 10px/1.6 var(--mono);
+  color: #9eafc7;
+  margin-top: 9px;
+}
+.meme-missing {
+  text-align: center;
+  padding: 20px;
+  color: #8fa7bd;
+  font: 10px/2 var(--mono);
+}
+.meme-missing small {
+  font: 10px/1.6 var(--sans);
+}
+.meme-overlay {
+  position: fixed;
+  right: 4.3%;
+  bottom: 205px;
+  width: 235px;
+  padding: 0 13px 13px;
+  border: 1px solid #9fa7d142;
+  border-radius: 9px;
+  background: #101a2bf0;
+  backdrop-filter: blur(16px);
+  z-index: 24;
+  box-shadow: 0 12px 44px #0005;
+  animation: signal-arrival 0.28s ease-out;
+}
+.meme-overlay-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  min-height: 44px;
+}
+.meme-overlay-header .eyebrow {
+  font-size: 7px;
+  color: #bbafd4;
+}
+.meme-overlay-header .icon-button {
+  width: 34px;
+  height: 34px;
+  margin-right: -7px;
+}
+.meme-overlay-header .icon-button svg {
+  width: 15px;
+}
+.meme-overlay .context-meme figcaption {
+  font-size: 10px;
+  color: #c3d9dc;
+}
+.meme-overlay-footnote {
+  display: block;
+  margin-top: 7px;
+  font: 7px/1.6 var(--mono);
+  color: #7a90ad;
+}
+.portfolio-mode .meme-overlay {
+  bottom: 24px;
+  z-index: 28;
+}
+.meme-signal-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+  min-height: 44px;
+  padding: 7px 12px;
+  background: #131b2dd9;
+  border: 1px dashed #b8a2d053;
+  border-radius: 5px;
+  color: #adbbcf;
+  font: 8px/1.5 var(--mono);
+}
+.meme-signal-label > span {
+  font-size: 6px;
+  color: #cbb5e3;
+  letter-spacing: 0.12em;
+}
+.meme-signal-label:hover {
+  border-color: #cbb5e3;
+  background: #22263fe8;
+}
+.lore-meme {
+  width: 240px;
+  margin-top: 30px;
+}
+.project-easter {
+  width: 200px;
+  margin-top: 27px;
+  border-top: 1px dashed #b0c8de20;
+  padding-top: 23px;
+}
+.origin-meme {
+  width: 125px;
+  margin-top: 28px;
+}
+.nebula-meme {
+  width: 250px;
+  margin: 24px 0;
+}
+.contact-memes {
+  display: flex;
+  align-items: flex-start;
+  gap: 17px;
+  margin: 32px 0 20px;
+  max-width: 330px;
+}
+.contact-memes .context-meme {
+  width: 90px;
+  transform: rotate(-3deg);
+}
+.contact-memes .context-meme:nth-child(2) {
+  transform: rotate(4deg);
+}
+.contact-memes .context-meme figcaption {
+  font-size: 7px;
+  line-height: 1.7;
+}
+.scene-loading-slow {
+  width: 210px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.scene-loading-slow .context-meme {
+  width: 100%;
+  margin-top: 8px;
+}
+.scene-loading-slow .context-meme figcaption {
+  font-size: 8px;
+}
+.site-header nav {
+  gap: 20px;
+}
+@keyframes signal-arrival {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 760px) {
+  .site-header {
+    padding-inline: 16px;
+  }
+  .site-header nav {
+    gap: 8px;
+  }
+  .brand small {
+    display: none;
+  }
+  .brand {
+    font-size: 11px;
+  }
+  .sound-toggle.icon-button {
+    width: 31px;
+    height: 36px;
+  }
+  .sound-toggle svg {
+    width: 16px;
+    height: 16px;
+  }
+  .sound-settings summary {
+    width: 25px;
+    height: 36px;
+  }
+  .sound-settings summary svg {
+    width: 12px;
+    height: 12px;
+  }
+  .sound-popover {
+    right: -90px;
+    top: 44px;
+    width: 240px;
+  }
+  .meme-overlay {
+    right: 14px;
+    top: 195px;
+    bottom: auto;
+    width: 158px;
+    padding: 0 9px 10px;
+  }
+  .meme-overlay-header {
+    min-height: 38px;
+  }
+  .meme-overlay-header .eyebrow {
+    font-size: 6px;
+    letter-spacing: 0.06em;
+  }
+  .meme-overlay-header .icon-button {
+    width: 30px;
+    height: 34px;
+  }
+  .meme-overlay .context-meme figcaption {
+    font-size: 8px;
+  }
+  .meme-overlay-footnote {
+    font-size: 6px;
+  }
+  .portfolio-mode .meme-overlay {
+    top: auto;
+    bottom: 20px;
+  }
+  .lore-meme {
+    width: 205px;
+  }
+  .project-easter {
+    width: 180px;
+  }
+  .scene-loading-slow {
+    top: 20%;
+    right: 7%;
+    width: 165px;
+  }
+  .site-header .text-link {
+    font-size: 9px;
+  }
+}
+@media (max-width: 380px) {
+  .brand {
+    font-size: 10px;
+    gap: 8px;
+  }
+  .brand-orbit {
+    width: 22px;
+    height: 22px;
+  }
+  .brand-orbit:after {
+    width: 31px;
+  }
+  .site-header .mode-switch {
+    font-size: 6px;
+    padding-inline: 7px;
+  }
+  .sound-controls {
+    gap: 0;
+  }
+  .site-header nav {
+    gap: 6px;
+  }
+  .sound-popover {
+    right: -82px;
+  }
+  .meme-overlay {
+    width: 145px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .meme-overlay {
+    animation: none;
+  }
+  .contact-memes .context-meme {
+    transform: none;
+  }
+}

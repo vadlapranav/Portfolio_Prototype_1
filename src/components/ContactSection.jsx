@@ -49,7 +49,7 @@ export default function ContactSection() {
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
           >
-            Nah. Let's build something that actually works.
+            Nah. Let’s build something that actually works.
           </motion.p>
 
           <motion.p

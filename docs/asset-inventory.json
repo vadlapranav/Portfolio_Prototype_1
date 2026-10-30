@@ -1,0 +1,476 @@
+{
+  "images": [
+    {
+      "path": "public/assets/cursor/mog1.jpg",
+      "bytes": 26227,
+      "sha256": "2258634d32cfc951ca1aac18e613040065cc369035c89d2c627cf0acddca2b31",
+      "width": 735,
+      "height": 546,
+      "aspectRatio": 1.3461538461538463,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/cursor/mog2.jpg",
+      "bytes": 22370,
+      "sha256": "aa7639c3ba08ff6dcde08d7ea622ff4313b6085447708221f474a85839de814d",
+      "width": 736,
+      "height": 736,
+      "aspectRatio": 1.0,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/Baby holding laugh meme on Tiktok(use for elevation or to grab attention or use it near the intership period cuz it syncs well).jpeg",
+      "bytes": 26596,
+      "sha256": "60912c0aaad47d18a3ce4e04f5a462e4ebcd9c1ae57daac82c0cafe27cd3bb85",
+      "width": 735,
+      "height": 739,
+      "aspectRatio": 0.9945872801082544,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/for shocked , use it for one of the project with a sound effect that syncs ill guide u at the end no worries.jpg",
+      "bytes": 36360,
+      "sha256": "fa48d938098f183807c99283b7a8ad0a04974d3f3e54dd2a67cfbaf27b365abb",
+      "width": 449,
+      "height": 449,
+      "aspectRatio": 1.0,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/mog1.jpg",
+      "bytes": 26227,
+      "sha256": "2258634d32cfc951ca1aac18e613040065cc369035c89d2c627cf0acddca2b31",
+      "width": 735,
+      "height": 546,
+      "aspectRatio": 1.3461538461538463,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/mog2.jpg",
+      "bytes": 22370,
+      "sha256": "aa7639c3ba08ff6dcde08d7ea622ff4313b6085447708221f474a85839de814d",
+      "width": 736,
+      "height": 736,
+      "aspectRatio": 1.0,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/shocked meme , use it near my intership period so that i they can relate i did something big.jpeg",
+      "bytes": 5173,
+      "sha256": "f9bce3dead763a6fd906632dcd1b250bcd20dc6edf16d2225716041701d02f0f",
+      "width": 226,
+      "height": 223,
+      "aspectRatio": 1.0134529147982063,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/this a picture that represents chilll bro u can use it near skills or u can use it near one of my projects ex solar rc car.jpg",
+      "bytes": 36309,
+      "sha256": "9004322721bff3542b7aa50e55dd4456d8de888d78b4c1b33cfd66097ae50b74",
+      "width": 620,
+      "height": 480,
+      "aspectRatio": 1.2916666666666667,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/this also use this at the end with the other pic i already told to use it at the end .jpg",
+      "bytes": 59159,
+      "sha256": "cdbfb4808b12142c17b835ce031d6d41fbae8b80da42bd77cda14ba3aba93f38",
+      "width": 564,
+      "height": 705,
+      "aspectRatio": 0.8,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/this is a requesting pic so use it  at the end like get me a job or a internship would be good .jpg",
+      "bytes": 7053,
+      "sha256": "63a0cab5f0bbc8efa9e65beade80a04a11a7817b3054d9c1785be40f52a60ad8",
+      "width": 216,
+      "height": 251,
+      "aspectRatio": 0.8605577689243028,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/this represents a timeout type  meme so, we can use it near a project.jpg",
+      "bytes": 91152,
+      "sha256": "12b45bd17d7720e06303f7166cde20c7a12bbb1af65d4570d4585085d161bd88",
+      "width": 1199,
+      "height": 1272,
+      "aspectRatio": 0.9426100628930818,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "public/assets/memes/use it at the end the picture represnts a heart  as u can see .jpg",
+      "bytes": 52759,
+      "sha256": "8ac8dc7bfa808ee4bb1bc7b9b9641bd87315baf092afa10543295604b1cd6c10",
+      "width": 736,
+      "height": 736,
+      "aspectRatio": 1.0,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/Baby holding laugh meme on Tiktok(use for elevation or to grab attention or use it near the intership period cuz it syncs well).jpeg",
+      "bytes": 26596,
+      "sha256": "60912c0aaad47d18a3ce4e04f5a462e4ebcd9c1ae57daac82c0cafe27cd3bb85",
+      "width": 735,
+      "height": 739,
+      "aspectRatio": 0.9945872801082544,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/for shocked , use it for one of the project with a sound effect that syncs ill guide u at the end no worries.jpg",
+      "bytes": 36360,
+      "sha256": "fa48d938098f183807c99283b7a8ad0a04974d3f3e54dd2a67cfbaf27b365abb",
+      "width": 449,
+      "height": 449,
+      "aspectRatio": 1.0,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/mog1.jpg",
+      "bytes": 26227,
+      "sha256": "2258634d32cfc951ca1aac18e613040065cc369035c89d2c627cf0acddca2b31",
+      "width": 735,
+      "height": 546,
+      "aspectRatio": 1.3461538461538463,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/mog2.jpg",
+      "bytes": 22370,
+      "sha256": "aa7639c3ba08ff6dcde08d7ea622ff4313b6085447708221f474a85839de814d",
+      "width": 736,
+      "height": 736,
+      "aspectRatio": 1.0,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/shocked meme , use it near my intership period so that i they can relate i did something big.jpeg",
+      "bytes": 5173,
+      "sha256": "f9bce3dead763a6fd906632dcd1b250bcd20dc6edf16d2225716041701d02f0f",
+      "width": 226,
+      "height": 223,
+      "aspectRatio": 1.0134529147982063,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/this a picture that represents chilll bro u can use it near skills or u can use it near one of my projects ex solar rc car.jpg",
+      "bytes": 36309,
+      "sha256": "9004322721bff3542b7aa50e55dd4456d8de888d78b4c1b33cfd66097ae50b74",
+      "width": 620,
+      "height": 480,
+      "aspectRatio": 1.2916666666666667,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/this also use this at the end with the other pic i already told to use it at the end .jpg",
+      "bytes": 59159,
+      "sha256": "cdbfb4808b12142c17b835ce031d6d41fbae8b80da42bd77cda14ba3aba93f38",
+      "width": 564,
+      "height": 705,
+      "aspectRatio": 0.8,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/this is a requesting pic so use it  at the end like get me a job or a internship would be good .jpg",
+      "bytes": 7053,
+      "sha256": "63a0cab5f0bbc8efa9e65beade80a04a11a7817b3054d9c1785be40f52a60ad8",
+      "width": 216,
+      "height": 251,
+      "aspectRatio": 0.8605577689243028,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/this represents a timeout type  meme so, we can use it near a project.jpg",
+      "bytes": 91152,
+      "sha256": "12b45bd17d7720e06303f7166cde20c7a12bbb1af65d4570d4585085d161bd88",
+      "width": 1199,
+      "height": 1272,
+      "aspectRatio": 0.9426100628930818,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/use it a the internship_section and give it a title of absolute cinema.png",
+      "bytes": 375648,
+      "sha256": "572094b122a71e1efd435b8272a75951431072380a398251216085bb045972ee",
+      "width": 759,
+      "height": 540,
+      "aspectRatio": 1.4055555555555554,
+      "format": "PNG",
+      "hasAlpha": true,
+      "referencedByName": true
+    },
+    {
+      "path": "Meme_Images/use it at the end the picture represnts a heart  as u can see .jpg",
+      "bytes": 52759,
+      "sha256": "8ac8dc7bfa808ee4bb1bc7b9b9641bd87315baf092afa10543295604b1cd6c10",
+      "width": 736,
+      "height": 736,
+      "aspectRatio": 1.0,
+      "format": "JPEG",
+      "hasAlpha": false,
+      "referencedByName": true
+    }
+  ],
+  "vectors": [
+    {
+      "path": "public/assets/memes/original/orbital-brain.svg",
+      "bytes": 1077,
+      "sha256": "9c0034d06432e89f25d5b27a58ae6767765d3bca9ce7b26431c4e421665314bc",
+      "format": "SVG",
+      "width": 600.0,
+      "height": 600.0,
+      "containsText": true
+    },
+    {
+      "path": "public/assets/memes/original/quantum-buttons.svg",
+      "bytes": 1081,
+      "sha256": "4a17776425f8f74e9fc9867c8b53ef0d3cc5edc1130ba65566bdf77b03f25e3a",
+      "format": "SVG",
+      "width": 720.0,
+      "height": 420.0,
+      "containsText": true
+    },
+    {
+      "path": "public/assets/memes/original/waiting-astronaut.svg",
+      "bytes": 1813,
+      "sha256": "b358839aa1c1b511e736403940ce90cb76f556b06cba93381374f0272414e250",
+      "format": "SVG",
+      "width": 640.0,
+      "height": 420.0,
+      "containsText": true
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 330,
+      "sha256": "b42a6b585f9bd4ad851a020a6358f6098c35f4e36119af724d29d5e240b41e83",
+      "format": "SVG",
+      "width": 64.0,
+      "height": 64.0,
+      "containsText": false
+    },
+    {
+      "path": "public/vite.svg",
+      "bytes": 1497,
+      "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb",
+      "format": "SVG",
+      "width": 31.88,
+      "height": 32.0,
+      "containsText": false
+    },
+    {
+      "path": "src/assets/react.svg",
+      "bytes": 4126,
+      "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5",
+      "format": "SVG",
+      "width": 35.93,
+      "height": 32.0,
+      "containsText": false
+    }
+  ],
+  "audio": [
+    {
+      "path": "public/assets/sounds/bruh-sound-effect_WstdzdM.mp3",
+      "bytes": 14061,
+      "sha256": "6a04c34422d17b5ad0a62baaf5810dab7e19aa06baf5cbe2002fc750486ff170",
+      "format": "mp3",
+      "durationSeconds": 0.864,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 128000
+    },
+    {
+      "path": "public/assets/sounds/bye-bye-lumi-athena-sfx.mp3",
+      "bytes": 117120,
+      "sha256": "8c067f08cc08451f55a216d6c0417b043264bd26d2252008d60796033e2ff24d",
+      "format": "mp3",
+      "durationSeconds": 7.32,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 128000
+    },
+    {
+      "path": "public/assets/sounds/fbi-open-up_dwLhIFf.mp3",
+      "bytes": 113534,
+      "sha256": "cd7d9f2fa02b785d3eff81affdd56ea1ce16a3192a702ebd98c3265d8b024453",
+      "format": "mp3",
+      "durationSeconds": 7.08,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 128000
+    },
+    {
+      "path": "public/assets/sounds/meme-violin-sad-violin.mp3",
+      "bytes": 73813,
+      "sha256": "6aa0f62297c2154fbf715e1f43b435c0a468b4083bbdc91200531ba96fce5324",
+      "format": "mp3",
+      "durationSeconds": 4.598,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 127999
+    },
+    {
+      "path": "public/assets/sounds/punch-gaming-sound-effect-hd_RzlG1GE.mp3",
+      "bytes": 25423,
+      "sha256": "ac37eec2d00a9be2613c0ec1bf334775cc6df286b555e1ff4074d448b9b4260c",
+      "format": "mp3",
+      "durationSeconds": 1.567,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 127997
+    },
+    {
+      "path": "public/assets/sounds/shocked-sound-effect.mp3",
+      "bytes": 23751,
+      "sha256": "65dee4c57274f57c967529f274bdded069a6ac066cafed1005e066eea6f241de",
+      "format": "mp3",
+      "durationSeconds": 1.463,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 127996
+    },
+    {
+      "path": "public/assets/sounds/snore-mimimimimimi.mp3",
+      "bytes": 91467,
+      "sha256": "9c459766ddfbe6156b8f5cd1539102b0207937f490aa449e62837d34795dc015",
+      "format": "mp3",
+      "durationSeconds": 5.695,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 128000
+    },
+    {
+      "path": "public/assets/sounds/windows-xp-startup_1ph012N.mp3",
+      "bytes": 78829,
+      "sha256": "ecdf3580740eeb1c20611f14969766e8203bd11e38c3438f7ebb1fc6280afd6a",
+      "format": "mp3",
+      "durationSeconds": 4.911,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 127999
+    },
+    {
+      "path": "Meme_sounds/bruh-sound-effect_WstdzdM.mp3",
+      "bytes": 14061,
+      "sha256": "6a04c34422d17b5ad0a62baaf5810dab7e19aa06baf5cbe2002fc750486ff170",
+      "format": "mp3",
+      "durationSeconds": 0.864,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 128000
+    },
+    {
+      "path": "Meme_sounds/bye-bye-lumi-athena-sfx.mp3",
+      "bytes": 117120,
+      "sha256": "8c067f08cc08451f55a216d6c0417b043264bd26d2252008d60796033e2ff24d",
+      "format": "mp3",
+      "durationSeconds": 7.32,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 128000
+    },
+    {
+      "path": "Meme_sounds/fbi-open-up_dwLhIFf.mp3",
+      "bytes": 113534,
+      "sha256": "cd7d9f2fa02b785d3eff81affdd56ea1ce16a3192a702ebd98c3265d8b024453",
+      "format": "mp3",
+      "durationSeconds": 7.08,
+      "sampleRate": 48000,
+      "channels": 2,
+      "bitrate": 128000
+    },
+    {
+      "path": "Meme_sounds/meme-violin-sad-violin.mp3",
+      "bytes": 73813,
+      "sha256": "6aa0f62297c2154fbf715e1f43b435c0a468b4083bbdc91200531ba96fce5324",
+      "format": "mp3",
+      "durationSeconds": 4.598,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 127999
+    },
+    {
+      "path": "Meme_sounds/punch-gaming-sound-effect-hd_RzlG1GE.mp3",
+      "bytes": 25423,
+      "sha256": "ac37eec2d00a9be2613c0ec1bf334775cc6df286b555e1ff4074d448b9b4260c",
+      "format": "mp3",
+      "durationSeconds": 1.567,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 127997
+    },
+    {
+      "path": "Meme_sounds/shocked-sound-effect.mp3",
+      "bytes": 23751,
+      "sha256": "65dee4c57274f57c967529f274bdded069a6ac066cafed1005e066eea6f241de",
+      "format": "mp3",
+      "durationSeconds": 1.463,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 127996
+    },
+    {
+      "path": "Meme_sounds/snore-mimimimimimi.mp3",
+      "bytes": 91467,
+      "sha256": "9c459766ddfbe6156b8f5cd1539102b0207937f490aa449e62837d34795dc015",
+      "format": "mp3",
+      "durationSeconds": 5.695,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 128000
+    },
+    {
+      "path": "Meme_sounds/windows-xp-startup_1ph012N.mp3",
+      "bytes": 78829,
+      "sha256": "ecdf3580740eeb1c20611f14969766e8203bd11e38c3438f7ebb1fc6280afd6a",
+      "format": "mp3",
+      "durationSeconds": 4.911,
+      "sampleRate": 44100,
+      "channels": 2,
+      "bitrate": 127999
+    }
+  ],
+  "models": []
+}

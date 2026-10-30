@@ -39,11 +39,11 @@ export default function AboutSection() {
 
             <div className="space-y-4 text-text-secondary leading-relaxed" style={{ fontFamily: 'var(--font-retro)', fontSize: '1.3rem' }}>
               <p>
-                Hey! I'm <span className="text-white font-semibold">Pranav</span> — a developer who
+                Hey! I’m <span className="text-white font-semibold">Pranav</span> — a developer who
                 builds things that actually work in the real world.
               </p>
               <p>
-                I don't just write code. I build{' '}
+                I don’t just write code. I build{' '}
                 <span className="text-neon-blue">phishing simulations that fool real employees</span>,{' '}
                 <span className="text-neon-green">threat intelligence pipelines that catch malware</span>,
                 and{' '}
@@ -55,7 +55,7 @@ export default function AboutSection() {
                 From Raspberry Pi to cloud infrastructure.
               </p>
               <p className="text-text-muted italic">
-                "If it solves a problem, I'll learn whatever it takes to build it."
+                “If it solves a problem, I’ll learn whatever it takes to build it.”
               </p>
             </div>
 
